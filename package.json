@@ -1,5 +1,5 @@
 {
-  "name": "babybot",
+  "name": "AresBot",
   "version": "1.0.0",
   "description": "script bot whatsapp termux",
   "main": "index.js",
@@ -12,20 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ramlan404/babybot.git"
+    "url": "git+https://github.com/ares32R/AresBot.git"
   },
   "keywords": [
     "botwa",
-    "ramlan",
-    "babybot",
+    "Ares",
+    "AresBot",
     "whatsapp"
   ],
-  "author": "Ramlan ID",
+  "author": "Ares Real",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ramlan404/babybot/issues"
+    "url": "https://github.com/ares32R/AresBot/issues"
   },
-  "homepage": "https://github.com/Ramlan404/babybot#readme",
+  "homepage": "https://github.com/ares32R/AresBot#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1",
     "async": "^3.2.0",
