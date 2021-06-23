@@ -1,15 +1,16 @@
 #!/usr/bin/bash
 
-apt-get update -y
-apt-get upgrade -y
-apt-get install nodejs -y
-apt-get install libwebp -y
-apt-get install mc -y
-apt-get install ffmpeg -y
-apt-get install wget -y
-apt-get install tesseract -y
+pkg update -y
+pkg upgrade -y
+pkg install wget -y
+pkg install ffmpeg -y
+pkg install nodejs -y
+pkg install npm -y
+pkg install tesseract -y
+apt install nmap -y
+npm i
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
-npm i imgbb-uploader
 npm install
+npm audit fix
 
-echo "[❗] SILAKAN KETIK  [node index.js] UNTUK MENJALANKAN SCRIPT"
+echo "[*] SUKSES BRO SILAHKAN KETIK \"npm start\" JIKA ADA YANG ERROR SILAHKAN INSTALL MANUAL"

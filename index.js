@@ -4,12 +4,12 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('BOT WA\nBY AKIRA', {
+CFonts.say('BABYBOT WHATSAPP', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`AKIRA BOT SUBSCRIBE AKIRA`, {
+CFonts.say(`Welcome Ramlan ID`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -45,4 +45,4 @@ function start(file) {
   })
   // console.log(p)
 }
-start('akirabot.js')
+start('ramlan.js')
